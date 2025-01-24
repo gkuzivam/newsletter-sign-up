@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(29, 24, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.sign-up-card {
+    display: flex; 
+    background-color: white;
+    margin: 100px;
+    border-radius: 2%;
+    width: 80%;
+}
+
+.sign-up-left{
+    width: 60%;
+}
+
+.sign-up-left {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #242742;
+    font-size: 80px;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li img {
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+span {
+    color: #242742;
+    font-weight: bold;
+    font-size: small;    
+}
+
+.email-input,
+.submit-button {
+  width: 70%;
+  height: 40px; /* Adjust the height as needed */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+
+}
+
+.submit-button {
+  margin-top: 20px; /* Adds space between the input and button */
+  color: white;
+  background-color: #242742;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+
+.invalid {
+    background-color: rgb(247, 167, 167);
+    color: rgb(209, 93, 93);
+    border: 1px solid rgb(247, 167, 167);
+}
+
+.error-message {
+    color: red; 
+    margin-left: 240px; 
+    font-size: small; 
+}
+
+.submit-button:hover {
+    background-color: rgb(198, 46, 97);
+}
+
+.email-input{
+    margin-top: 5px;
+    padding-left: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.sign-up-right img {
+    margin: 20px;
+}
+
+.thanks-message{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.thanks-message img {
+    margin: 20px 0 10px 20px;
+}
+
+.heading-right {
+    color: #242742;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.thanks-message p {
+    color: #242742;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.dismiss-button {
+    margin-top: 20px; 
+    color: white;
+    background-color: #242742;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+    width: 80%;
+    height: 40px;
+}
+
+.dismiss-button:hover {
+    background-color: rgb(198, 46, 97);
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Sign up card -->
+    <div class="sign-up-card" id="sign-up-card">
+      <div class="sign-up-left">
+        <h1 class="heading-left"> Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+     
+        <ul>
+          <li> <img src="./assets/images/icon-list.svg" alt="Icon List">Product discovery and building what matters</li>
+          <li> <img src="./assets/images/icon-list.svg" alt="Icon List"> Measuring to ensure updates area success</li>
+          <li> <img src="./assets/images/icon-list.svg" alt="Icon List"> And much more!</li>
+        </ul>
+
+        <span>Email address </span>
+        <span id="email-error" class="error-message" style="display: none;">Valid email required</span>
+        <form id="form" action="submit" novalidate>
+          <input class="email-input" id="email-input" type="email" name="email" placeholder="email@company.com" required>
+          <button class="submit-button" type="submit">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+
+      <div class="sign-up-right">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="Illustration sign up desktop">
+      </div>
+       <!-- end of sign up card -->
+    </div>
+
+    <!-- Thanks message -->
+    <div class="thanks-message" id="thanks-message" style="display: none;"> 
+      <img src="./assets/images/icon-success.svg" alt="Illustration success">
+      <h2 class="heading-right">Thanks for subscribing!</h2>
+      <p>A confirmation message has to <strong>abc@company.com</strong>. Please open it and click the button inside to confirm your subscription. </p>
+      <button id="dismiss-button" class="dismiss-button" type="click"> Dismiss message </button>
+    </div>
+  </body>
+</html>
